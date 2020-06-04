@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Corona Tracker</title>
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+		<link rel="stylesheet" href="style.css"></style>
+	</head>
+	
+	<body>
+		<div id="content">
+			<h1 align="center">Corona Statistics</h1>
+			<br>
+
+			<div id="stats">
+				<div>
+					<label for="selectCountry">Select Country</label>
+					<select id="selectCountry" onchange="updateContent();"></select>
+
+					<p id="newCases">New Cases: LOADING...</p>
+					<p id="newDeaths">New Deaths: LOADING...</p>
+					<p id="newRecovered">New Recovered: LOADING...</p>
+					<p id="totalConfirmed">Total Confirmed: LOADING...</p>
+					<p id="totalDeaths">Total Deaths: LOADING...</p>
+				</div>	
+
+
+				<div>
+					<canvas id="trendChart"></canvas>
+				</div>
+			</div>
+		</div>
+		
+
+		<div id="about">
+			<h1>About</h1>
+			<p id="aboutText">Covid-19 (Corona virus) is a global pandemic in 2020. Having infected millions, with hundreds of thousands fatalities, many of the world's largest countries shut down partially or completely for up to several months. Currently, many countries are starting to reopen. However, it is not without risk of another large-scale outbreak. This page allows you to stay updated on the latest statistics regarding Covid-19. 
+		</div>
+
+	</body>
+</html>

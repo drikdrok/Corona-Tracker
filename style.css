@@ -1,0 +1,42 @@
+body, html {
+	background-color: rgb(13, 13, 15);
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+
+#content{
+	padding: 50px;
+	background-color: rgb(30, 31, 36);
+	overflow: hidden;
+}
+#stats{
+	display: flex;
+	justify-content: space-around;
+}
+
+#about{
+	text-align: center;
+	background-color: rgb(13, 13, 15);
+	overflow: hidden;
+}
+
+#aboutText{
+	text-align: justify;
+	width: 600px;
+	line-height: 1.3;
+	margin:auto;
+}
+
+p, label, h1{
+	color:white;
+}
+
+p, label{
+	font-size: 20
+}
+
+h1{
+	font-size: 55;
+}
